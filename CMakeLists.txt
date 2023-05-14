@@ -1,3 +1,5 @@
+cmake_minimum_required(VERSION 3.5)
+
 project(heatmap LANGUAGES C)
 
 file(GLOB_RECURSE HEATMAP_COLORSCHEMES colorschemes/*.c)
